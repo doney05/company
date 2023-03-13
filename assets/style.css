@@ -1,0 +1,261 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #ECF2FF;
+  font-family: "Merriweather", serif;
+}
+
+.navbar {
+  background-color: #ECF2FF;
+}
+
+.navbar-nav .nav-item .nav-link {
+  color: rgb(50, 181, 241);
+  font-weight: 400;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: rgb(61, 6, 201);
+}
+
+.navbar-nav .nav-item .nav-link:active {
+  color: rgb(61, 6, 201);
+  font-weight: 500;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.second-header {
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+}
+
+.second-header h1 {
+  font-size: 50px;
+  color: rgb(255, 208, 0);
+}
+
+.second-header .text-berjalan {
+  overflow: hidden;
+}
+
+.second-header .text {
+  box-sizing: content-box;
+  height: 30px;
+  padding: 5px 15px;
+  text-align: center;
+  display: flex;
+}
+
+.second-header .data {
+  height: 100vh;
+  background: url("/assets/img/company/4.jpg");
+}
+
+.second-header .tombol {
+  height: 100vh;
+  background: url("/assets/img/company/4.jpg");
+}
+
+.second-header a {
+  text-decoration: none;
+  color: rgb(172, 140, 0);
+  background-color: #2b551b;
+  padding: 15px 25px;
+  z-index: 2;
+}
+
+.second-header a:hover {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+  background-color: #31a503;
+  padding: 15px 25px;
+}
+
+.tentang {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+}
+
+.tentang .isi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: rgb(0, 0, 0);
+  opacity: 0.9;
+}
+
+.tentang a {
+  text-decoration: none;
+  color: rgb(172, 140, 0);
+  background-color: #2b551b;
+  padding: 15px 25px;
+  z-index: 1;
+}
+
+.tentang a:hover {
+  text-decoration: none;
+  color: rgb(255, 208, 0);
+  background-color: #2b551b;
+  padding: 15px 25px;
+}
+
+.tentang #isi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: url("/assets/img/slider4.jpeg");
+}
+
+.content {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.content img {
+  width: 100%;
+}
+
+.content .title {
+  margin-top: 10%;
+  font-size: 50px;
+  color: white;
+  font-weight: bold;
+  background-color: rgb(62, 130, 255);
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  box-shadow: 1px 1px 10px 10px rgb(24, 91, 216) inset;
+}
+
+.content .visi {
+  margin-top: 3%;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 2px black;
+  border-radius: 7px;
+}
+
+.content .visi h3 {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(62, 130, 255);
+  box-shadow: 1px 1px 10px 10px rgb(24, 91, 216) inset;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 103px;
+  margin-left: 40%;
+}
+
+.content .visi p {
+  font-weight: bold;
+}
+
+.content .misi {
+  margin-top: 3%;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid black;
+  box-shadow: 0px 0px 5px 2px black;
+  border-radius: 7px;
+}
+
+.content .misi h3 {
+  color: white;
+  font-weight: bold;
+  background-color: rgb(62, 130, 255);
+  box-shadow: 1px 1px 10px 10px rgb(24, 91, 216) inset;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 103px;
+  margin-left: 40%;
+}
+
+.content .misi img {
+  width: 20%;
+}
+
+.content .misi p {
+  font-size: 12px;
+  text-align: justify;
+}
+
+.content-footer {
+  color: #ECF9FF;
+  position: relative;
+  background-color: #000;
+  margin-bottom: 2%;
+  padding: 3%;
+}
+
+.content-footer::before {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  opacity: 0.5;
+  background: url("/assets/img/header.png") no-repeat center center;
+  background-size: cover;
+}
+
+.content-footer h1 {
+  font-weight: bold;
+}
+
+.content-footer p {
+  text-align: justify;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.content-footer ul li {
+  text-align: justify;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.title-img .content img {
+  padding-left: 2%;
+}
+
+.value {
+  padding: 5%;
+  height: 50vh;
+}
+
+.value h1 {
+  font-weight: bold;
+}
+
+.value .isi h5 {
+  text-align: left;
+}
+
+.value ul li {
+  text-align: justify;
+  list-style-type: square;
+}
+
+.value .isi {
+  margin-top: 2%;
+}
+
+.footer {
+  background-color: #a3a3a3;
+  position: absolute;
+  width: 100%;
+  padding-top: 1%;
+}/*# sourceMappingURL=style.css.map */
